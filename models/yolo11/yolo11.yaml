@@ -1,0 +1,11 @@
+path: E:/lc/yolov10-main/data  # dataset root dir
+train: E:/lc/yolov10-main/data/images/training/  # train images (relative to 'path') 118287 images
+val: E:/lc/yolov10-main/data/images/testing/  # train images (relative to 'path') 5000 images
+
+# Classes
+nc: 2  # number of classes
+names:
+  0: 'car'
+  1: 'truck'
+
+  #['Car','Pedestrian','Cyclist','truck']

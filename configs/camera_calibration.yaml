@@ -1,0 +1,9 @@
+# configs/camera_calibration.yaml
+cam1:
+  id: 1
+  offset_sec: 0
+cam2:
+  id: 2
+  offset_sec: 5  # cam2 比 cam1 迟1.5秒
+tunnel_distance_m: 500  # 两个摄像头间距离
+max_speed_kmh: 200  # 隧道限速

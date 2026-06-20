@@ -1,0 +1,7 @@
+# configs/model_config.yaml
+yolo:
+  path: models/yolo11/yolo11.pt  # 二分类 fine-tune 版
+reid:
+  path: models/reid/vit_transreid_veri.pth  # 默认主权重
+  feat_dim: 768
+pseudo_label_mode: true  # 启用伪标注调试

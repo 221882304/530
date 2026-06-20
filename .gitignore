@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Data and outputs
+data/
+datasets/
+outputs/
+runs/
+logs/
+*.log
+
+# Large model files
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+# System
+.DS_Store
+Thumbs.db

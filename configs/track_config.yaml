@@ -1,0 +1,16 @@
+# configs/track_config.yaml
+low_score:
+  high_th: 0.4
+  low_th: 0.15
+  reliability_th: 0.65
+cross_camera:
+  time_window: [2, 10]
+  min_app_sim: 0.6
+trajectory:
+  max_gap: 30
+  min_quality: 0.5
+evaluation:
+  iou_th: 0.5
+
+pseudo_label_mode: true
+similarity_threshold: 0.6  # ReID sim阈值，用于关联伪轨迹
